@@ -1,0 +1,163 @@
+MVP – Digital Document Management Platform
+Feature 1: E-Sign Contracts
+User Story 1 – Digital Signature
+
+As a manager,
+I want clients to sign documents digitally,
+so that contracts are legally acknowledged without the need for printing or scanning.
+
+Scenario / Workflow:
+
+Upload PDF Document
+
+Manager uploads a document such as a proposal, contract, NDA, or agreement.
+
+Supported formats: .pdf (future enhancement: .docx).
+
+Open in E-Sign Editor
+
+The uploaded PDF opens in an editable viewer.
+
+Manager can:
+
+Create a new signature using a signature pad or typing tool.
+
+Choose a saved signature from previously stored options.
+
+Drag and drop the signature onto the required location in the document.
+
+Generate Secure Signing Link
+
+Manager clicks on “Generate Secure Link”.
+
+A unique, encrypted URL is generated (similar to a Google Drive share link).
+
+This link can be copied and shared with clients via email, WhatsApp, or chat.
+
+Client Signing Process
+
+Client opens the secure link in their browser (no login required).
+
+Document is displayed with signature placeholders.
+
+Client reviews and signs the document digitally.
+
+Once completed, the system automatically:
+
+Saves the signed PDF.
+
+Marks the document as “Signed” with timestamp and signer details.
+
+Download & Sharing
+
+Both manager and client can:
+
+Download the signed PDF directly.
+
+Share via Google Drive or similar storage integration.
+
+Outcome / Value:
+
+Completely eliminates paper-based signing.
+
+Provides secure and verifiable digital signatures.
+
+Simplifies sharing and storage of signed documents.
+
+Saves time by avoiding scanning and manual emailing.
+
+Feature 2: PDF Editing
+User Story – Inline PDF Editing
+
+As a manager,
+I want to edit PDF documents directly in the platform,
+so that I can make quick changes before sending for signature or sharing.
+
+Scenario / Workflow:
+
+Open PDF in Editor
+
+Manager opens any PDF file using the built-in inline PDF editor.
+
+Make Changes
+
+Manager can:
+
+Edit text fields (correct typos, update content).
+
+Replace or resize images (e.g., logos, signatures).
+
+Add or edit form fields.
+
+Save Updated PDF
+
+Changes are applied, and a new version of the PDF is generated.
+
+Download or Share
+
+Manager can:
+
+Download the updated PDF to their device.
+
+Share a secure Google Drive link directly from the system.
+
+Version Tracking (Optional – Future Release)
+
+System logs all edits for compliance and auditing purposes.
+
+Outcome / Value:
+
+Enables fast, in-place edits without needing third-party tools.
+
+Reduces back-and-forth emailing of draft versions.
+
+Ensures documents are always shareable in standard PDF format.
+
+Improves productivity by centralizing document preparation.
+
+Feature 3: Free PDF Templates Library
+User Story – Ready-to-Use Templates
+
+As a user,
+I want access to a library of ready-made PDF templates,
+so that I can quickly create documents like invoices, contracts, or proposals without designing them from scratch.
+
+Scenario / Workflow:
+
+Browse Template Library
+
+User navigates to the Template Library section.
+
+Templates are categorized for easy navigation:
+
+Invoices
+
+Contracts
+
+Proposals
+
+Payment Slips
+
+Others (e.g., NDAs, receipts)
+
+Preview Templates
+
+User clicks on a template thumbnail to preview it before selecting.
+
+Select and Customize
+
+Once a template is selected:
+
+It opens in the inline PDF editor.
+
+User can edit text, logos, and fields to match their requirements.
+
+Save, Download, or Share
+
+After customization, the document can be:
+
+Saved to the system.
+
+Downloaded as a standard PDF.
+
+Shared via secure link with clients or team members.
